@@ -1,0 +1,21 @@
+{
+  "name": "dither-studio",
+  "version": "1.0.0",
+  "description": "Turn photos, video, and your camera into 1-bit art, halftone, risograph tones, and ASCII. Exports PNG, SVG, and animated GIF. Runs entirely in the browser.",
+  "main": "src/dither.js",
+  "files": ["src"],
+  "scripts": {
+    "start": "npx --yes serve docs",
+    "sync": "node scripts/sync-docs.js",
+    "samples": "python3 scripts/make-samples.py",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "playwright": "^1.48.0"
+  },
+  "keywords": ["dither", "dithering", "halftone", "ascii-art", "gif-encoder", "canvas", "web-worker", "image-processing"],
+  "author": "Reza Arya Maulana",
+  "license": "MIT",
+  "homepage": "https://rezaaryam.github.io/dither-studio/",
+  "repository": { "type": "git", "url": "https://github.com/rezaaryam/dither-studio.git" }
+}
